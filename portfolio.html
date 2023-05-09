@@ -38,36 +38,90 @@
 	<section id="portfolio">
 		<h1>PORTFOLIO</h1>
 		<div id="content">
-		<article>
-			<img src="common/images/p01.jpg" alt="TinyWow">
-			<div>
-				<h2>TinyWow</h2>
-				<p>PDFファイル、ビデオ、画像などを操作するための膨大な種類のツールを備えた無料のウェブサイトです。TinyWowは、PDFファイル、ビデオ、画像などを扱うための膨大な種類の使いやすいツールを無料で提供しています。ワード文書をPDFファイルに変換、画像から背景を削除、ビデオをGIFファイルに変換、ミームを作成、画像をシャープにするなど、さまざまなことができます。</p>
-				<p>ウェブサイト：<a href="https://tinywow.com/">https://tinywow.com</a></p>
+			<article>
+				<img src="common/images/project_img.jpg" alt="Project">
+				<div>
+					<h2>Sweet Potato Classification Support System Development Project</h2>
+					<p>サツマイモ品質判別AIシステムの研究プロジェクトを行っています。農家の方が使いやすく、「甘姫」と呼ばれるサツマイモの産地を選別することが可能となるDeep Learning技術を導入したシステム開発です。現在行っている個人選別作業にAI技術を導入することで、人負担軽減やプロセス統一化などを図ろうとする取り組みで、私の担当は、「サポートシステムのサツマイモの形状を選別する方法を検討・改善する」ことで、卒業研究のテーマでもあります。</p>
+					
+				</div>
+			</article>
+			<article>			
+					<div id="TableBlock">
+						<p id="result"></p>
+						<table id="first_show">
+							<tr><td>阿部</td><td id="-1">65</td></tr>
+							<tr><td>加藤</td><td id="-2">48</td></tr>
+							<tr><td>佐藤</td><td id="-3">36</td></tr>
+							<tr><td>田中</td><td id="-4">80</td></tr>
+							<tr><td>中川</td><td id="-5">100</td></tr>
+							<tr><td>林</td>  <td id="-6">94</td></tr>
+							<tr><td>松本</td><td id="-7">72</td></tr>
+							<tr><td>矢部</td><td id="-8">67</td></tr>
+							<tr><td>和田</td><td id="-9">93</td></tr>
+							<tr><td>山田</td><td id="-10">50</td></tr>
+							<tr><td>鈴木</td><td id="-11">100 </td></tr>
+						</table>
+						<button onClick="calc('3')">計算</button>
+						<p id="sum_result"> </p>
+					</div>
+					<div>
+					<h2>点数変更</h2>
+					<p>点数を変更</p>
+					<select id="text_name">
+						<option id="0" value="-1">阿部</option>
+						<option id="1" value="-2">加藤</option>
+						<option id="2" value="-3">佐藤</option>
+						<option id="3" value="-4">田中</option>
+						<option id="4" value="-5">中川</option>
+						<option id="5" value="-6">林</option>
+						<option id="6" value="-7">松本</option>
+						<option id="7" value="-8">矢部</option>
+						<option id="8" value="-9">和田</option>
+						<option id="9" value="-10">山田</option>
+						<option id="10" value="-11">鈴木</option>
+					</select>
+						
+					
+					<input type="number" id="data1">
+					<button onClick="Change_value()">入力</button>
+						<p>変更した点数を表示するため、「昇順」または「降順」ボータンを押す</p>
+					<button onclick="calc('2')">昇順 </button>
+					<button onclick="calc('1')">降順 </button>
+					
+				</div>
+			</article>
+			<article>
+				<img src="common/images/p01.jpg" alt="TinyWow">
+				<div>
+					<h2>TinyWow</h2>
+					<p>PDFファイル、ビデオ、画像などを操作するための膨大な種類のツールを備えた無料のウェブサイトです。TinyWowは、PDFファイル、ビデオ、画像などを扱うための膨大な種類の使いやすいツールを無料で提供しています。ワード文書をPDFファイルに変換、画像から背景を削除、ビデオをGIFファイルに変換、ミームを作成、画像をシャープにするなど、さまざまなことができます。</p>
+					<p>ウェブサイト：<a href="https://tinywow.com/">https://tinywow.com</a></p>
 
-			</div>
-		</article>
-		<article>
-			<img src="common/images/p02.jpg" alt="Craiyon, formerly DALL·E mini">
-			<div>
-				<h2>Craiyon, formerly DALL·E mini</h2>
-				<p>任意のテキストプロンプトから画像を描画できるAIモデルです。ユーザはテキストプロンプトを入力するだけで、Craiyonがそれを作成します。例えば、犬の写真を見たい場合、Craiyonのプロンプトに「dog」と入力することになります。</p>
-				<p>ウェブサイト：<a href="https://www.craiyon.com/">https://www.craiyon.com</a></p>
+				</div>
+			</article>
+			<article>
+				<img src="common/images/p02.jpg" alt="Craiyon, formerly DALL·E mini">
+				<div>
+					<h2>Craiyon, formerly DALL·E mini</h2>
+					<p>任意のテキストプロンプトから画像を描画できるAIモデルです。ユーザはテキストプロンプトを入力するだけで、Craiyonがそれを作成します。例えば、犬の写真を見たい場合、Craiyonのプロンプトに「dog」と入力することになります。</p>
+					<p>ウェブサイト：<a href="https://www.craiyon.com/">https://www.craiyon.com</a></p>
 
-			</div>
-		</article>
-		<article>
-			<img src="common/images/p03.jpg" alt="DeepL Translate">
-			<div>
-				<h2>DeepL Translate</h2>
-				<p>DeepL Translateは、29言語のテキスト、音声、画像、ファイルを翻訳するための翻訳アプリです。chromeの英文を「範囲選択→クリック」で和訳できます。英語が苦手な人は導入を検討してはどうでしょう。</p>
-				<p>ウェブサイト：<a href="https://www.deepl.com/translator/">https://www.deepl.com/translator</a></p>
+				</div>
+			</article>
+			<article>
+				<img src="common/images/p03.jpg" alt="DeepL Translate">
+				<div>
+					<h2>DeepL Translate</h2>
+					<p>DeepL Translateは、29言語のテキスト、音声、画像、ファイルを翻訳するための翻訳アプリです。chromeの英文を「範囲選択→クリック」で和訳できます。英語が苦手な人は導入を検討してはどうでしょう。</p>
+					<p>ウェブサイト：<a href="https://www.deepl.com/translator/">https://www.deepl.com/translator</a></p>
 
-			</div>
-		</article>
-	</div>
-	 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+				</div>
+			</article>
+		</div>
+	
 	</section>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 	<footer class="other">
 		<p>Copyright &copy; NGUYEN DUONG GIA BAO . All Rights Reserved. </p>
 	</footer>

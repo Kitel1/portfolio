@@ -164,6 +164,11 @@ div#left-p{
 		strong{
 			font-size: 1.8rem;
 		}
+		a{
+			color: #E5E5E4;
+			text-decoration: none;
+			display: block;
+		}
 	}
 }
 
@@ -218,7 +223,11 @@ section#portfolio{
 		margin-bottom: 75px;
 	}
 	article{
-		
+			#TableBlock{
+			display: block;
+			max-width: 400px;
+			
+			}
 			margin-bottom: 50px;
 			&:last-child{
 				margin:0;
@@ -228,6 +237,7 @@ section#portfolio{
 				max-width: 400px;
 			}
 			div{
+						
 				h2{
 					background-image: linear-gradient(90deg,#000000 0%,#333 10.63%,#3E3E3E 100%);
 					font-size: 2.2rem;
@@ -243,6 +253,22 @@ section#portfolio{
 					color: aqua;
 				}
 			}
+			td{
+				text-align: center;
+				width: 100px;
+				border: 1px solid rgb(122, 122, 122);
+				padding: 3px;
+				margin: 0px;
+				background-color:#333;
+				font-size:1.5rem;
+				}
+			table,th{
+				border-collapse:collapse;
+				border-spacing:1px;
+				border:1;
+				padding: 0;
+				margin: 0;
+				} 
 			@include media(md){
 			display: flex;
 			justify-content: space-between;
@@ -250,6 +276,9 @@ section#portfolio{
 			margin-bottom: 100px;
 			img{
 				width: 45%;
+			}
+			#TableBlock{
+				width:  45%;		
 			}
 			div{
 				width: 50%;
@@ -269,6 +298,10 @@ footer.other{
 		font-size: 1.2rem;
 	}
 }
+
+	
+	
+
 //Top button
 #myBtn {
   display:block; /* Hidden by default */
