@@ -5,7 +5,7 @@
 /* index page */
 body.top{
 	width: 100%;
-	min_height: 100vh;
+	min-height: 100vh;
 	
 	background:url("../images/bg_top.jpg");
 	background-size: cover;
@@ -196,7 +196,7 @@ div#right-p{
 			}
 			div#right-p{
 				width: 55%;
-				h2: fist-child{
+				h2:first-child{
 					margin-top: 0;
 				}
 			}
@@ -269,4 +269,23 @@ footer.other{
 		font-size: 1.2rem;
 	}
 }
+//Top button
+#myBtn {
+  display:block; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:#4F0A0B; /* Set a background color */
+  color:lightblue; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
 
+#myBtn:hover {
+  background-color:#761315; /* Add color background on hover */
+}
