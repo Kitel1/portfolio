@@ -4,7 +4,11 @@ function topFunction( ) {
     
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-
+//dark & light mode 
+function switchFunction() {
+    var element = document.body;
+    element.classList.toggle("light-mode");
+ }
 //点数代わる
 var surname=['阿部','加藤','佐藤','田中','中川','林','松本','矢部','和田','山田','鈴木'];
 var point=[65, 48, 36, 80, 100, 94, 72, 67, 93, 50, 100];
